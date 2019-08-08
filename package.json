@@ -1,0 +1,19 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "A theme based component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathanpec/component-library.git"
+  },
+  "author": "Mathan Appadurai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathanpec/component-library/issues"
+  },
+  "homepage": "https://github.com/mathanpec/component-library#readme"
+}
