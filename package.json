@@ -4,7 +4,10 @@
   "description": "A theme based component library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build-storybook": "build-storybook -s public"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,25 @@
   "bugs": {
     "url": "https://github.com/mathanpec/component-library/issues"
   },
-  "homepage": "https://github.com/mathanpec/component-library#readme"
+  "homepage": "https://github.com/mathanpec/component-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-info": "^5.1.11",
+    "@storybook/react": "^5.1.10",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "react-docgen-typescript-loader": "^3.1.1",
+    "storybook-addon-jsx": "^7.1.5",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/styled-components": "^4.1.18",
+    "@types/styled-system": "^5.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.0"
+  }
 }
