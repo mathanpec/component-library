@@ -8,7 +8,7 @@ setAddon(JSXAddon);
 
 (storiesOf("Button", module) as any).addWithJSX("Normal Buttons", () => (
   <Example>
-    <Button appearance="primary" mx={2}>
+    <Button appearance="primary" mx={2} px={7}>
       Primary
     </Button>
     <Button appearance="success" mx={2}>
@@ -16,6 +16,9 @@ setAddon(JSXAddon);
     </Button>
     <Button appearance="danger" mx={2}>
       Danger
+    </Button>
+    <Button appearance="danger" disabled mx={2}>
+      Disabled
     </Button>
   </Example>
 ));
@@ -31,6 +34,9 @@ setAddon(JSXAddon);
     <Button appearance="danger" type="outline" mx={2}>
       Danger
     </Button>
+    <Button appearance="danger" type="outline" disabled mx={2}>
+      Disabled
+    </Button>
   </Example>
 ));
 
@@ -44,6 +50,9 @@ setAddon(JSXAddon);
     </Button>
     <Button appearance="danger" type="text" mx={2}>
       Danger
+    </Button>
+    <Button appearance="danger" type="text" disabled mx={2}>
+      Disabled
     </Button>
   </Example>
 ));
